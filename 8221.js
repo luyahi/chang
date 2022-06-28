@@ -130,6 +130,7 @@ var boxRoot;
             });
             jQuery("#p_modal_button1").on("click", function (event) {
                 jQuery("#content5").fadeOut("slow");
+                jQuery("#btmimg").fadeIn("slow");
                 event.stopPropagation();
                 jQuery('#p_modal1').modal('hide');
                 puedo = true;
