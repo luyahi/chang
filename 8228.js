@@ -74,8 +74,8 @@ $(document).ready(function () {
             }, 4100), setTimeout(function () {
                 $("#result3").fadeIn(1e3)
             }, 6e3), setTimeout(function () {
-                $("#content2").fadeOut("slow", $("#content5").fadeOut("slow"), function () {
-                    "undefined" != typeof roulette_ini ? rouletteRoot._init() : "undefined" != typeof box_ini && boxRoot._init(), $("#content3").fadeIn(), jQuery('#p_modal3').modal(modalOptions);
+                $("#content2").fadeOut("slow", function () {
+                    "undefined" != typeof roulette_ini ? rouletteRoot._init() : "undefined" != typeof box_ini && boxRoot._init(), $("#content5").fadeOut("slow"), $("#content3").fadeIn(), jQuery('#p_modal3').modal(modalOptions);
                 })
             }, 7100)
         })
